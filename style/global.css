@@ -37,6 +37,46 @@
   --fs-md: 1rem;
   --fs-sm: .875rem;
 
-
+  /* variáveis para mobile */
+  --px-base: 1rem;
+  --py-base: 1rem;
 }
 
+html {
+  font-family: var(--ff-sans);
+  font-size: var(--fs-md);
+  font-weight: var(--fw-regula);
+  color: var(--text-color-primary);
+}
+
+body {
+  background: var(--bg-color);
+}
+
+h1 {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-extra-bold);
+  color: var(--brand-color-light);
+  line-height: 135%;
+}
+
+h2 {
+  color: var(--text-color-primary);
+  line-height: 140%;
+}
+
+h3 {
+  color: var(--text-color-secondary);
+  line-height: 140%;
+}
+
+p {
+  color: var(--text-color-secondary);
+  line-height: 160%;
+}
+
+@media (width >= 80em) {
+  :root {
+    --py-base: 2rem;
+  }
+}
