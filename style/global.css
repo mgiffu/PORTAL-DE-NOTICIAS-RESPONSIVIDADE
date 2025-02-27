@@ -80,6 +80,11 @@ p {
   line-height: 160%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (width >= 80em) {
   :root {
     --py-base: 2rem;

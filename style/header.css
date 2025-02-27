@@ -38,7 +38,12 @@
         justify-content: space-between;
         padding-block: 0.875rem;
 
-        & h3:hover {
+        & a {
+          font: var(--fw-semi-bold) var(--fs-sm);
+          color: var(--text-color-secondary);
+        }
+
+        & a:hover {
           color: var(--brand-color-light);
           cursor: pointer;
         }
