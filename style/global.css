@@ -71,6 +71,7 @@ h2 {
 }
 
 h3 {
+  font-size: var(--fs-sm);
   color: var(--text-color-secondary);
   line-height: 140%;
 }

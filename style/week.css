@@ -1,0 +1,63 @@
+#week{
+  & .divisor {
+    margin-block: 2rem .75rem;
+  }
+
+  & header {
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+
+    & a {
+      display: grid;
+      grid-auto-flow: column;
+      background-image: url(../assets/ArrowRight.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+      
+      & strong {
+        font-size: var(--fs-sm);
+        color: var(--text-color-secondary);
+        margin-right: 1.25rem;
+      }
+
+    }
+    
+    & a:hover{
+      background-image: url(../assets/ArrowRight-hover.svg);
+      & strong {
+        color: var(--brand-color-light);
+      }
+    }
+  }
+
+  & figure {
+    position: relative;
+
+    & .content-tag {
+      position: absolute;
+      top: .5rem;
+      left: .5rem;
+    }
+  }
+  & h2 {
+    padding-block: .5rem 2rem;
+  }
+}
+
+@media (width >= 80em) {
+  #week {
+    & .divisor {
+      margin-block: 5rem .75rem;
+    }
+
+    & #week-news {
+      display: flex;
+      gap: 1rem;
+
+      & img {
+        max-width: 18.25rem;
+      }
+    }
+  }
+}
