@@ -23,6 +23,10 @@
   gap: 1rem;
 }
 
+.divisor {
+  border: 1px solid var(--stroke-color);
+}
+
 .container {
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--py-base) * 2);

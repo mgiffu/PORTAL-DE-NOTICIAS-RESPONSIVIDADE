@@ -17,9 +17,6 @@
 
 & #navbar-secondary {
   padding-block: .875rem;
-  & #divisor {
-    border: 1px solid var(--stroke-color);
-  }
 }
 
 @media (width >= 80em) {
