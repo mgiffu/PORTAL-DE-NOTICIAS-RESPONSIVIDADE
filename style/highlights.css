@@ -12,9 +12,8 @@
   }
 
   & #secondary-news {
-    & img {
-      margin-bottom: 1rem;
-    }
+      display: grid;
+      gap: 1rem;
 
     & .content-tag {
       margin-left: 0.75rem;
@@ -47,8 +46,8 @@
       gap: 1rem;
 
       & img {
-        width: 18rem;
-        height: 12,5rem;
+        /* width: 18rem;
+        height: 12.5rem; */
         display: block;
       }
     }
