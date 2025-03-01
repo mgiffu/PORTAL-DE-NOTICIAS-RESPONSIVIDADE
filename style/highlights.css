@@ -21,8 +21,10 @@
     }
   
     & h2 {
-      margin: .5rem .75rem .75rem .75rem;
+      /* margin: .5rem .75rem .75rem .75rem; */
       /* padding-block: .5rem .75rem; */
+      padding-inline: .75rem;
+      margin-block: .5rem .75rem ;
     }
   }
 

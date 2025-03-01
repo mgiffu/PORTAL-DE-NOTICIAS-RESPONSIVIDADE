@@ -66,3 +66,37 @@
     }
   }
 }
+
+@media (width >= 80em) {
+  #ia {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+
+    & .divisor {
+      margin-block: 0 .75rem;
+    }
+
+    & #right-side {
+
+      & article {
+        flex-direction: row-reverse;
+        margin-bottom: 1.5rem;
+
+        & img {
+          max-width: 11rem;
+        }
+      }
+    }
+
+    & #left-side {
+      & #ad{
+        margin-bottom: 2rem;
+      }
+
+      & article {
+        gap: 2rem;
+      }
+    }
+  }
+}

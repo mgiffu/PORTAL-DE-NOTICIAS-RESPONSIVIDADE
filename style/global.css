@@ -67,6 +67,7 @@ h1 {
 
 h2 {
   font-size: var(--fs-md);
+  font-weight: var(--fw-extra-bold);
   color: var(--text-color-primary);
   line-height: 140%;
 }
@@ -79,6 +80,7 @@ h3 {
 
 p {
   font-size: var(--fs-sm);
+  font-weight: var(--fw-regula);
   color: var(--text-color-secondary);
   line-height: 160%;
 }
