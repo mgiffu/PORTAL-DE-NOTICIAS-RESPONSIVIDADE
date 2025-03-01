@@ -1,4 +1,4 @@
-#week{
+#ia {
   & .divisor {
     margin-block: 2rem .75rem;
   }
@@ -30,35 +30,38 @@
     }
   }
 
-  & figure {
-    position: relative;
-    margin-bottom: 2rem;
-
-    & .content-tag {
-      position: absolute;
-      top: .5rem;
-      left: .5rem;
-    }
-  }
-}
-
-@media (width >= 80em) {
-  #week {
-    margin-bottom: 5rem;
-    & .divisor {
-      margin-block: 5rem .75rem;
-    }
-
-    & #week-news {
+  & #right-side {
+    & article {
       display: flex;
       gap: 1rem;
+    }
+    
+    & img {
+      max-width: 5rem;
+    }
 
-      & figure {
-        margin-bottom: 0;
+    & h2 {
+      margin-block: .5rem .25rem;
+    }
+
+    & p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  & #left-side {
+    & #see-that {
+      & article {
+        display: flex;
+        gap: 1rem;
       }
-
+  
       & img {
-        max-width: 18.25rem;
+        max-width: 4.5rem;
+      }
+  
+      & h2 {
+        margin-block: .5rem 2rem;
       }
     }
   }
