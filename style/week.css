@@ -33,6 +33,7 @@
 
   & figure {
     position: relative;
+    margin-bottom: 2rem;
 
     & .content-tag {
       position: absolute;
@@ -40,13 +41,11 @@
       left: .5rem;
     }
   }
-  & h2 {
-    padding-block: .5rem 2rem;
-  }
 }
 
 @media (width >= 80em) {
   #week {
+    margin-bottom: 5rem;
     & .divisor {
       margin-block: 5rem .75rem;
     }
@@ -54,6 +53,10 @@
     & #week-news {
       display: flex;
       gap: 1rem;
+
+      & figure {
+        margin-bottom: 0;
+      }
 
       & img {
         max-width: 18.25rem;

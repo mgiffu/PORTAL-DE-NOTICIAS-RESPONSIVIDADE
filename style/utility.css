@@ -74,6 +74,34 @@
   box-shadow: 0rem .5rem 1rem rgb(2, 6, 23, 0.251);
 }
 
+.text-two {
+  width: 100%;
+  display: -webkit-box; /* Necessário para o line-clamp funcionar */
+  -webkit-box-orient: vertical; /* Orientação vertical do texto */
+  -webkit-line-clamp: 2; /* Limita o texto a 2 linhas */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa o limite */
+  text-overflow: ellipsis; /* Adiciona "..." ao final do texto cortado */
+}
+
+.text-three {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.text-four {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media (width >= 80em) {
   .container {
     --max-width: 80em;
