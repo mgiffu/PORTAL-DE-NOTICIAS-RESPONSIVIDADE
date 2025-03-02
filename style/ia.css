@@ -34,6 +34,7 @@
     & article {
       display: flex;
       gap: 1rem;
+      margin-bottom: 2rem;
     }
     
     & img {
@@ -44,12 +45,15 @@
       margin-block: .5rem .25rem;
     }
 
-    & p {
-      margin-bottom: 2rem;
-    }
   }
 
   & #left-side {
+    & #ad {
+      & img {
+        border-radius: .25rem;
+      }
+    }
+
     & #see-that {
       & article {
         display: flex;
@@ -78,10 +82,12 @@
     }
 
     & #right-side {
+      max-width: 43.5rem;
 
       & article {
         flex-direction: row-reverse;
-        margin-bottom: 1.5rem;
+        justify-content: center;
+        /* margin-bottom: 1.5rem; */
 
         & img {
           max-width: 11rem;
@@ -92,10 +98,6 @@
     & #left-side {
       & #ad{
         margin-bottom: 2rem;
-      }
-
-      & article {
-        gap: 2rem;
       }
     }
   }

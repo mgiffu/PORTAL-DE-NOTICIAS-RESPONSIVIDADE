@@ -1,4 +1,8 @@
 #highlights {
+  & img {
+    border-radius: .25rem;
+  }
+
   & #main-new {
     & .content-tag {
       margin-left: 1rem;
@@ -28,14 +32,16 @@
     }
   }
 
-
-
 }
 
 @media (width >= 80em) {
   #highlights {
 
     & #main-new {
+      & img {
+        max-width: 40rem;
+      }
+
       & .content-tag {
         margin-left: 1.5rem;
       }

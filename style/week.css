@@ -30,15 +30,23 @@
     }
   }
 
-  & figure {
-    position: relative;
-    margin-bottom: 2rem;
+  & #week-news {
 
-    & .content-tag {
-      position: absolute;
-      top: .5rem;
-      left: .5rem;
+    & figure {
+      position: relative;
+      margin-bottom: 2rem;
+  
+      & .content-tag {
+        position: absolute;
+        top: .5rem;
+        left: .5rem;
+      }
+
+      & h2 {
+        padding-top: .5rem;
+      }
     }
+
   }
 }
 
@@ -51,9 +59,10 @@
 
     & #week-news {
       display: flex;
-      gap: 1rem;
+      justify-content: space-between;
 
       & figure {
+        max-width: 18.25rem;
         margin-bottom: 0;
       }
 
