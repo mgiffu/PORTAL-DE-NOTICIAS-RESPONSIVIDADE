@@ -14,7 +14,7 @@
   display: none;
 }
 
-.mobile.only {
+.mobile-only {
   display: initial;
 }
 
@@ -116,7 +116,7 @@
     display: initial;
   }
 
-  .mobile.only {
+  .mobile-only {
     display: none;
   }
 

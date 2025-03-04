@@ -17,6 +17,35 @@
 
 & #navbar-secondary {
   padding-block: .875rem;
+
+  & #select-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & select {
+      appearance: none;
+      border-radius: .25rem;
+      border: 2px solid transparent;
+      outline: 1px solid var(--stroke-color);
+      padding-block: .25rem;
+      margin-block: .5rem;
+      background-color: var(--bg-color);
+      font-family: var(--ff-sans);
+      color: var(--text-color-secondary);
+      text-align: center;
+    }
+  
+    & select:focus,
+    select:hover {
+      outline: 1px solid var(--brand-color-light);
+      outline-offset: .1px; /* para que a cor da borda da caixa apareca no navegador safari*/
+    }
+
+  }
+
+
+
 }
 
 @media (width >= 80em) {
